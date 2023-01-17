@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+#logo-page{
+    background-color: #FFFFFF;
+    height: 60px;
+}
+
+#logo-page h1{
+    display: inline-block;
+    line-height: 10px;
+    vertical-align: 20px;
+
+}
+
+#logo-page img{
+    width: 40px;
+    margin: 10px 10px;
+}
+
+#container{
+    background-color: #F6F8F9;
+}
+
+
+
+
+
