@@ -6,6 +6,7 @@
 
 body{
     background-color: #F6F8F9;
+    font-family: sans-serif;
 }
 
 #logo-page{
@@ -32,12 +33,111 @@ body{
     background-color: #FFFFFF;
 }
 
-#container{
-    max-width: 800px;
+#container1{
+    max-width: 900px;
     margin: auto;
-    background-color: #F6F8F9;
+    margin-bottom: 3px;
 }
 
+.btn{
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#todo-buttons, #todo-list {
+    padding: 8px 40px;
+}
+
+
+.btn-primary{
+    border-color: #47acf0;
+    background-color: #47acf0;
+    color: white
+}
+
+.btn-secondary {
+    background-color: #fefefe;
+  
+    color: lightgray;
+    border-color: lightgray;
+  }
+
+#container2{
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0 0 5px 5px;
+    background-color: #FFFFFF;
+}
+
+#todo-list {
+    padding-top: 40px;
+}
+
+#todo-list .list-title {
+    font-size: 1.4em;
+}
+
+#todo-list ul {
+    list-style-type: none;
+}
+
+main #todo-list li {
+    margin: 1em 0;
+ } 
+
+
+#todo-list .todo-icon {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    text-align: center; 
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-size: 0.8em;
+}
+
+#todo-list .todo-icon.check {
+    border-color: green;
+    color: green;
+}
+  
+#todo-list .todo-icon.cross {
+    border-color: red;
+    color: red;
+}
+
+#todo-list .badge {
+    display: inline-block;  
+    padding: 8px 12px;
+    border-radius: 18px; 
+    color: white;  
+    margin: 0 .7em
+}
+
+#todo-list .badge.badge-blue {
+     background-color: #45aae9;
+}
+
+#todo-list .badge.badge-orange {
+    background-color: #f29e33;
+}
+
+#todo-list .badge.badge-purple {
+    background-color: #9c72e4;
+}
+
+#todo-list .badge.badge-green {
+    background-color: #64c0a9;
+}
+
+#todo-list .badge.badge-lightgreen {
+    background-color: #b0c926;
+}
+
+#todo-list .badge.badge-pink {
+    background-color: #d863a1;
+}i
 
 
 
